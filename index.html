@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio | Desenvolvimento de Sistemas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio"></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+    <nav id="menu">
+      <a href="#sobre">Sobre mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#carreira">Carreira</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#tcc">Meu TCC</a>
+      <a href="#contato">Contato</a>
+      <button id="temaBtn" class="tema-btn" aria-label="Alternar tema">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="inicio" id="inicio">
+      <div class="inicio-texto">
+        <p class="etiqueta">PORTFÓLIO ACADÊMICO</p>
+        <h1>Olá, eu sou Bruno Donizetti de Souza Gusmin <span>Estudante de Desenvolvimento de Sistemas.</span></h1>
+        <p class="resumo">Estou construindo minha trajetória na tecnologia, aprendendo a criar soluções por meio da
+          programação e transformando ideias em projetos.</p>
+        <a class="botao" href="#sobre">Conheça minha trajetória</a>
+      </div>
+      <div class="codigo-card">
+        <div class="janela"><i></i><i></i><i></i><span>meu_futuro.js</span></div>
+        <pre><code><b>const</b> futuro = {
+            area: <em>"Tecnologia"</em>,
+            curso: <em>"Desenvolvimento de Sistemas"</em>,
+            objetivo: <em>"Criar soluções"</em>,
+            aprendizado: <em>"Todos os dias"</em>
+          };
+        <b>console</b>.log(<em>"Um passo de cada vez!"</em>);</code></pre>
+      </div>
+    </section>
+
+    <section class="secao" id="sobre">
+      <p class="etiqueta">01 / APRESENTAÇÃO</p>
+      <h2>Sobre mim</h2>
+      <p>Meu nome é Bruno Donizetti de Souza Gusmin e sou estudante do curso de Desenvolvimento de Sistemas. Tenho interesse por tecnologia, programação e criação
+        de soluções digitais. Gosto de aprender na prática, entender como os sistemas funcionam e buscar maneiras de
+        melhorar minhas habilidades.</p>
+      <p>Este portfólio apresenta um pouco da minha formação, dos conhecimentos que estou desenvolvendo e dos meus
+        planos para o futuro profissional.</p>
+    </section>
+
+    <section class="secao fundo" id="formacao">
+      <p class="etiqueta">02 / TRAJETÓRIA ACADÊMICA</p>
+      <h2>Minha formação</h2>
+      <div class="cartoes">
+        <article class="cartao">
+          <span class="icone">🎓</span>
+          <h3>Desenvolvimento de Sistemas</h3>
+          <p>Curso voltado à lógica de programação, desenvolvimento web, banco de dados e construção de aplicações.</p>
+        </article>
+        <article class="cartao">
+          <span class="icone">💻</span>
+          <h3>Aprendizado prático</h3>
+          <p>Durante os estudos, pratico a criação de páginas, aplicações, integração com bancos de dados e resolução de
+            problemas com código.</p>
+        </article>
+        <article class="cartao">
+          <span class="icone">🧩</span>
+          <h3>Projetos</h3>
+          <p>Tenho trabalhado em projetos acadêmicos, incluindo o NEXA, uma proposta de sistema voltado à segurança do
+            trabalho e ao controle de EPIs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao" id="carreira">
+      <p class="etiqueta">03 / PROFISSÃO DESEJADA</p>
+      <h2>Onde quero chegar</h2>
+      <h3 class="destaque">Desenvolvimento de software</h3>
+      <p>Minha intenção é seguir na área de tecnologia, trabalhando com desenvolvimento de sistemas e aplicações.
+        Escolhi esse caminho porque gosto de resolver problemas, aprender ferramentas novas e criar recursos que possam
+        facilitar tarefas do dia a dia.</p>
+      <p>Seus interesses podem mudar ao longo da formação, e quero aproveitar as oportunidades para conhecer diferentes
+        áreas da programação.</p>
+    </section>
+
+    <section class="secao fundo" id="objetivos">
+      <p class="etiqueta">04 / OBJETIVOS PROFISSIONAIS</p>
+      <h2>Meus próximos passos</h2>
+      <div class="linha-tempo">
+        <div class="passo"><b>Agora</b>
+          <p>Concluir o curso e fortalecer os fundamentos de programação.</p>
+        </div>
+        <div class="passo"><b>Próximo passo</b>
+          <p>Desenvolver projetos próprios, montar um portfólio e estudar novas tecnologias.</p>
+        </div>
+        <div class="passo"><b>Futuro</b>
+          <p>Buscar uma oportunidade na área de tecnologia e continuar evoluindo profissionalmente.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="habilidades">
+      <p class="etiqueta">05 / HABILIDADES E INTERESSES</p>
+      <h2>O que estou desenvolvendo</h2>
+      <div class="tags">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+        <span>SQL / MySQL</span><span>Flutter</span><span>Lógica de programação</span>
+        <span>Resolução de problemas</span><span>Trabalho em equipe</span>
+      </div>
+      <p class="nota">As tecnologias acima representam assuntos estudados ou praticados em projetos. Edite a lista para
+        manter somente aquilo que você realmente conhece.</p>
+    </section>
+
+
+    <section class="secao" id="tcc">
+      <p class="etiqueta">07 / PROJETO DE TCC</p>
+      <h2>NEXA — Monitoramento de EPIs</h2>
+      <h3>Eu sou Full Stack e PO(Product Owner)</h3>
+      <p>O NEXA é um projeto acadêmico voltado à segurança do trabalho. A proposta é utilizar câmeras e recursos de
+        inteligência artificial para auxiliar na identificação do uso de Equipamentos de Proteção Individual (EPIs)
+        pelos funcionários.</p>
+      <p>O sistema busca facilitar o acompanhamento da utilização dos equipamentos, apresentar os resultados de forma
+        visual e ajudar os responsáveis a identificar situações que precisam de atenção. O projeto reúne conhecimentos
+        de desenvolvimento de sistemas, banco de dados, programação e integração com câmera.</p>
+
+      <div class="nexa-demo">
+        <div class="camera-topo">
+          <span><i class="ao-vivo"></i> EXEMPLO DE MONITORAMENTO</span>
+          <span class="camera-status">CÂMERA 01 • PRÉVIA</span>
+        </div>
+        <div class="camera-tela" role="img"
+          aria-label="Demonstração ilustrativa de uma câmera de segurança com uma pessoa e marcações de EPIs">
+          <div class="camera-grade"></div>
+          <div class="pessoa-demo">
+            <div class="cabeca-demo"></div>
+            <div class="capacete-demo"></div>
+            <div class="corpo-demo"></div>
+            <div class="braco-demo esquerdo"></div>
+            <div class="braco-demo direito"></div>
+          </div>
+          <div class="marcacao epi-ok"><b>✓</b> Capacete detectado</div>
+          <div class="marcacao epi-falta"><b>!</b> Colete não detectado</div>
+          <div class="camera-legenda">ÁREA DE DETECÇÃO • ILUSTRAÇÃO</div>
+        </div>
+        <div class="camera-info">
+          <div><span class="bolinha verde"></span> EPI detectado</div>
+          <div><span class="bolinha vermelha"></span> EPI não detectado</div>
+          <div><span class="bolinha branca"></span> Em análise</div>
+          <div><span class="bolinha preta"></span> Não cadastrado</div>
+        </div>
+        <p class="camera-aviso">Esta é uma representação visual ilustrativa da proposta do NEXA, não uma captura real da
+          câmera ou da detecção funcionando.</p>
+      </div>
+      <h3 class="destaque">O que o projeto pretende oferecer</h3>
+      <div class="cartoes">
+        <article class="cartao"><span class="icone">📷</span>
+          <h3>Monitoramento</h3>
+          <p>Visualização de imagens capturadas pela câmera para acompanhar o ambiente de trabalho.</p>
+        </article>
+        <article class="cartao"><span class="icone">🦺</span>
+          <h3>Identificação de EPIs</h3>
+          <p>Indicação visual dos equipamentos identificados e daqueles que precisam de atenção.</p>
+        </article>
+        <article class="cartao"><span class="icone">📊</span>
+          <h3>Acompanhamento</h3>
+          <p>Organização das informações para apoiar o controle de segurança e a análise de ocorrências.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao fundo" id="tecnologia">
+      <p class="etiqueta">06 / TECNOLOGIA NA PROFISSÃO</p>
+      <h2>Como a tecnologia faz a diferença</h2>
+      <p>A tecnologia está presente em diversas profissões. Sistemas e aplicativos ajudam a organizar informações,
+        automatizar tarefas, reduzir erros e facilitar a comunicação. Na área de desenvolvimento, posso criar
+        ferramentas que atendam às necessidades de pessoas e empresas.</p>
+    </section>
+
+
+    <section class="contato" id="contato">
+      <p class="etiqueta">VAMOS CONVERSAR</p>
+      <h2>Entre em contato</h2>
+      <p>Obrigado por conhecer um pouco da minha trajetória e do projeto NEXA.</p>
+      <div class="contatos">
+        <a href="mailto:SEU_EMAIL_AQUI" class="contato-link">✉️ E-mail: brunodonizettgusmin@gmail.com</a>
+        <a href="https://wa.me/55SEUNUMERO" class="contato-link" target="_blank" rel="noopener">📱 WhatsApp:
+          55+ (19) 99501-5743</a>
+        <a href="https://github.com/SEU_USUARIO" class="contato-link" target="_blank" rel="noopener">💻 GitHub:
+          </a>
+      </div>
+      <p class="contato-ajuda">Antes de publicar, substitua os textos e links acima pelos seus contatos verdadeiros.</p>
+      <a class="botao claro" href="#inicio">Voltar ao início ↑</a>
+    </section>
+  </main>
+
+  <footer>Portfólio acadêmico • Desenvolvimento de Sistemas • <span id="ano"></span></footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
